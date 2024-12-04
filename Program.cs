@@ -31,7 +31,7 @@ class HalfSpace : HalfPlane
 {
     private double a3;
 
-    // Конструктор для встановлення коефіцієнтів півпростор
+    // Конструктор для встановлення коефіцієнтів
     public HalfSpace(double a1, double a2, double a3, double b) : base(a1, a2, b)
     {
         this.a3 = a3;
